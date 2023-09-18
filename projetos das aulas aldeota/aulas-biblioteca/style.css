@@ -1,0 +1,64 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+.texto1 a,  .texto2,  .texto3, .texto4 , .texto5 {
+    font-size: 20px;
+    color: brown;
+    cursor: pointer;
+    text-decoration: none;
+}
+.texto1:hover{
+    background-color: rgb(243, 217, 239);
+    color: rgb(51, 36, 36);
+    animation: translateY 0.8s infinite alternate;
+}
+.texto2 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(136, 116, 51);
+}
+.texto2:hover{
+    background-color: rgb(243, 217, 230);
+    color: rgb(78, 77, 77);
+    animation: translateY 0.8s infinite alternate;
+}
+.texto3 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(36, 96, 39);
+}
+.texto3:hover{
+    background-color: rgb(230, 217, 243);
+    color: rgb(78, 77, 77);
+    animation: translateY 0.8s infinite alternate;
+}
+
+.texto4 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(68, 189, 136);
+}
+.texto4:hover{
+    background-color: rgb(230, 217, 243);
+    color: rgb(78, 77, 77);
+    animation: translateY 0.8s infinite alternate;
+}
+.texto5 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(150, 36, 87);
+}
+.texto5:hover{
+    background-color: rgb(230, 217, 243);
+    color: rgb(78, 77, 77);
+    animation: translateY 0.8s infinite alternate;
+}
+
+  @keyframes translateY {
+    from {
+      transform: translateY(0) scale(1);
+    }
+    to {
+      transform: translateY(-4px) scale(1);
+    }
+}
+a {
+    text-decoration: none;
+}
