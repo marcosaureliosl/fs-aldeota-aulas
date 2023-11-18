@@ -1,4 +1,4 @@
-function pegarNome( ){
+function pegarNome(){
     let nome = prompt("qual seu nome");
     alert(nome);
 
@@ -39,11 +39,16 @@ function chamarNome(){
 // console.log(retorno);
 // alert(retorno);
 
-function soma(numero1,numero02){
+function minhasoma(numero1,numero02){
     return numero1 + numero02;
 }
-let retorno = (soma(6,5))
-alert (retorno)
+
+function chamarminhasoma() {
+
+    let retorno = (minhasoma(6,5));
+    alert (retorno);
+
+}
 
 
 
