@@ -1,0 +1,10 @@
+#circulo {
+    border-radius: 50%;
+    background-color: rgb(178, 179, 176);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}

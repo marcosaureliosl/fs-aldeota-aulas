@@ -21,29 +21,31 @@
 //     alert('O número é ímpar!');
 // }
 
-function calcularMediaAritmetica(numeros) {
-    // Verificar se o array está vazio
-    if (numeros.length === 0) {
-        return null; // Retorna null se o array estiver vazio
-    }
+// function calcularMediaAritmetica(numeros) {
+  
+//     if (numeros.length === 0) {
+//         return null; 
+//     }
 
-    // Calcular a soma dos números no array
-    var soma = numeros.reduce(function (acumulador, numero) {
-        return acumulador + numero;
-    }, 0);
+  
+//     var soma = numeros.reduce(function (acumulador, numero) {
+//         return acumulador + numero;
+//     }, 0);
 
-    // Calcular a média aritmética
-    var media = soma / numeros.length;
+   
+//     var media = soma / numeros.length;
 
-    return media;
-}
+//     return media;
+// }
 
-// Exemplos de uso da função
-var conjunto1 = [5, 10, 15, 20];
-var conjunto2 = [2, 4, 6, 8, 10];
 
-var mediaConjunto1 = calcularMediaAritmetica(conjunto1);
-var mediaConjunto2 = calcularMediaAritmetica(conjunto2);
+// var conjunto1 = [5, 10, 15, 20];
+// var conjunto2 = [2, 4, 6, 8, 10];
 
-console.log("Média do conjunto 1:", mediaConjunto1);
-console.log("Média do conjunto 2:", mediaConjunto2);
+// var mediaConjunto1 = calcularMediaAritmetica(conjunto1);
+// var mediaConjunto2 = calcularMediaAritmetica(conjunto2);
+
+// console.log("Média do conjunto 1:", mediaConjunto1);
+// console.log("Média do conjunto 2:", mediaConjunto2);
+
+
